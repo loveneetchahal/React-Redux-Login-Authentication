@@ -1,0 +1,148 @@
+/* Variables - Colors */
+
+
+$el-grey-color: rgb(172,177,187); /* should be darker than $el-body-background */
+$el-success-color: #00bdaa;
+$el-success-background:#d8f4f5;
+
+$el-warning-color: #f29e1a;
+$el-warning-background:  #fef5e8;
+$el-info-color: #7b1abf;
+$el-info-background: #e4e3f8;
+$el-danger-color: #dd3939;
+$el-danger-background:#fbebeb;
+$el-header-height:90px;
+
+
+$el-primary-color:var(--primary-color);
+$el-secondary-color:var(--secound-color);
+$el-third-color: var(--third-color);
+$el-primary-color-rgb-numbers:var(--primary-color-rgb-numbers);
+$el-secondary-color-rgb-numbers:var(--secound-color-rgb-numbers);
+$el-third-color-rgb-numbers: var(--third-color-rgb-numbers);
+
+/* Color that can not be changed as per branding */
+$light-blue: #ecf3fe;
+$very-light-blue: #e6e7ef;
+$white: #fff;
+$dark: #444;
+$green: #3bb878;
+$red: #f26d7d;
+$dark-grey: #c1c9d1;
+$light-green: #ebf8f1;
+$one-more-grey: #f7f7f8;
+$dark-text-grey: #80838c;
+$very-light-red: #f4f4f4;
+$olive-green: #91b0b3;
+$dark-black: #212121;
+$grey-1: #c0c0c0;
+
+/* Variables - calculations */
+$el-smallest: 2;
+$el-smaller: 5;
+$el-small: 10;
+$el-medium: 15;
+$el-large: 20;
+$el-larger: 25;
+
+/* Variables Body and Font */
+$el-body-background: #f5f6fa;
+$el-font-family: 'Open Sans', sans-serif;
+$el-font-size-big: 1.175rem;
+$el-font-size: 1rem;
+$el-font-size-small: 0.95rem; /* used in Form Inputs Controls */
+$el-font-size-smaller: 0.875rem; /* used in Table header */
+$el-font-size-smallest:0.75rem;
+$el-line-height: 1.5;
+$el-font-color: #2b2b2f;
+$el-font-color-medium: #444;
+$el-font-color-light: #9398a4;
+$el-font-color-lighter: #acb1bb;
+
+/* Headings */
+$el-h3: 1.4rem;
+
+$el-h4: 1rem;
+
+/* Variables - Link */
+$el-a-link-color: $el-primary-color;
+$el-a-link-hover-color: rgba($el-primary-color-rgb-numbers, 0.8);
+
+/* Variables - Buttons */
+$el-button-padding: 0.5rem 1rem;
+$el-button-padding-small: 0.5rem 1rem;
+$el-button-padding-dialogbox: 0.75rem 2rem;
+$el-primary-button-font-color: #fff;
+$el-secondary-button-fill-color: $el-secondary-color;
+$el-secondary-button-fill-hover-color: rgba($el-secondary-color-rgb-numbers, 0.8);
+$el-secondary-button-font-color: $el-primary-color;
+$el-secondary-button-font-hover-color: $el-primary-color;
+$el-secondary-button-border-color: $el-secondary-color;
+$el-disabled-button-fill-color: darken($el-body-background, $el-smaller);
+$el-disabled-button-font-color: darken($el-body-background, $el-medium);
+$el-search-button-padding: 0rem 0.75rem;
+
+/* Variables - other */
+$el-common-width-space: 0.25rem;
+$el-border-width: 1px;
+$el-border-radius: 0.3rem;
+$el-border-radius-large: 0.5rem;
+$el-border-radius-larger: 1rem;
+$el-border-color: rgb(240,240,240);
+
+/* Form Inputs, Dropdown, etc... */
+$el-form-group-margin: 1.25rem;
+$el-form-input-left-right-padding: 0.75rem;
+$el-form-input-padding: 0.375rem $el-form-input-left-right-padding;
+$el-form-input-dropdown-padding: 0.58rem  $el-form-input-left-right-padding;
+$el-form-input-autocomplete-padding: 0.35rem $el-form-input-left-right-padding;
+$el-form-input-autocomplete-dropdown-padding: 0.22rem  $el-form-input-left-right-padding;
+$el-form-input-calendar-adding: 0.5rem $el-form-input-left-right-padding;
+$el-form-accordoverride-adding: .45rem $el-form-input-left-right-padding;
+$el-list-items-padding: 0.3rem 0.75rem;
+$el-list-items-wrapper-padding: 0.5rem 0;
+$el-dropdown-hover-background: $el-secondary-color;
+$el-dropdown-hover-font-color: $el-primary-color;
+
+/* Breadcrumb */
+$el-breadcrumb-padding:  0;
+$el-breadcrumb-background: transparent;
+$el-breadcrumb-font-color: $el-font-color-light;
+$el-breadcrumb-font-size: $el-font-size-small;
+
+/* AutoComplete box */
+$el-tag-background-color: $very-light-blue;
+$el-tag-font-color: $el-font-color;
+
+/* Table */
+$el-table-th-padding: .75rem;
+$el-table-th-font-color: #000;
+$el-table-th-font-size: $el-font-size-smaller;
+$el-table-td-padding: 0 .75rem;
+$el-table-td-font-color: $el-font-color;
+$el-table-td-font-size: $el-font-size-smaller;
+$el-table-border-width: 0;
+$el-table-border-color: $el-grey-color;
+$el-table-even-row-background: #f0fafe; /* grey-blue */
+$el-table-odd-row-background:#fff;
+$el-table-icons-color: #fff;
+$el-table-dropdown-font-size: $el-font-size-smaller;
+$el-table-dropdown-items-padding: .3rem .5rem;
+
+/* Pagination */
+$el-pagination-padding: 1.5rem 0.5rem;
+$el-pagination-font-color: $el-font-color;
+$el-pagination-font-size: $el-font-size-smaller;
+$el-pagination-box-size: 1.5rem;
+$el-pagination-next-previous-margin-top: 0.15rem;
+
+/* Search box */
+$el-search-background: $el-body-background;
+
+/* White box */
+$el-white-box-padding: 1.5rem;
+
+/* Search results */
+$el-search-results-padding: 1.5rem;
+
+

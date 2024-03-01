@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26" height="28" viewBox="0 0 26 28">
+  <g id="Group_163" data-name="Group 163" transform="translate(-1115 -13)">
+    <path id="Notification_Icon" data-name="Notification Icon" d="M8.25,19.25h5.5a2.75,2.75,0,0,1-5.5,0ZM1.375,17.875a1.375,1.375,0,0,1,0-2.75h.687A5.982,5.982,0,0,0,4.125,11V6.875A6.808,6.808,0,0,1,11,0a6.808,6.808,0,0,1,6.875,6.875V11a5.982,5.982,0,0,0,2.062,4.125h.687a1.375,1.375,0,0,1,0,2.75Z" transform="translate(1115 19)" fill="#bcbccb"/>
+    <g id="Notification_Badge" data-name="Notification Badge" transform="translate(1126 15)" fill="#d43100" stroke="#fff" stroke-width="2">
+      <circle cx="6.5" cy="6.5" r="6.5" stroke="none"/>
+      <circle cx="6.5" cy="6.5" r="7.5" fill="none"/>
+    </g>
+  </g>
+</svg>

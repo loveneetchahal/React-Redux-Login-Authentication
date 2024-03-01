@@ -1,0 +1,206 @@
+/* Variables - Colors */
+/* should be darker than $el-body-background */
+/* Color that can not be changed as per branding */
+/* Variables - calculations */
+/* Variables Body and Font */
+/* used in Form Inputs Controls */
+/* used in Table header */
+/* Headings */
+/* Variables - Link */
+/* Variables - Buttons */
+/* Variables - other */
+/* Form Inputs, Dropdown, etc... */
+/* Breadcrumb */
+/* AutoComplete box */
+/* Table */
+/* grey-blue */
+/* Pagination */
+/* Search box */
+/* White box */
+/* Search results */
+@use "sass:math";
+/* New mixins*/
+.left_menu {
+  width: 4.5%;
+  position: fixed;
+  height: 100%;
+  transition: width 0.2s ease 0s;
+  -webkit-transition: width 0.2s ease 0s;
+  background-color: #000;
+  top: 0px;
+  margin-left: -2;
+  z-index: 800;
+  min-height: calc(100% - 90px);
+}
+
+.left_menu.active {
+  width: 280px;
+}
+
+.left_menu.active .menu_title {
+  display: inline-block;
+  color: #fff;
+}
+
+.left_menu.active .menu_lines .line.middle {
+  opacity: 0;
+}
+
+.left_menu.active .menu_lines .line.first {
+  margin-top: -1px !important;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.left_menu.active .menu_lines .line.last {
+  margin-top: -1px !important;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.left_menu .menu_title {
+  display: none;
+  font-weight: 600;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+}
+
+.left_menu .navbar_nav_top {
+  margin-top: 10px;
+}
+
+.left_menu .navbar_nav {
+  list-style: none;
+  padding-left: 0;
+}
+
+.left_menu .navbar_nav .nav_link {
+  color: #9398a4;
+  font-weight: 600;
+  margin-bottom: -25px;
+  text-align: center;
+  line-height: 52px;
+  width: 100%;
+  padding: 0 0 0 0px !important;
+  margin: 13px 0;
+}
+
+@media (max-height: 768px) {
+  .left_menu .navbar_nav .nav_link {
+    margin: 4px 0;
+  }
+}
+
+.left_menu .navbar_nav .nav_link .menu_image {
+  margin-right: 30px;
+  text-align: center;
+  line-height: 52px;
+  height: 52px;
+  min-height: 52px;
+  min-width: 52px;
+  width: 52px;
+  display: inline-block;
+  background-color: #000;
+  -webkit-transition: all .3s ease 0s;
+  transition: all .3s ease 0s;
+}
+
+.left_menu .navbar_nav .nav_link .menu_image i {
+  font-size: 1.175rem;
+  margin-top: 17px;
+}
+
+.left_menu .navbar_nav .nav_link.link_active .menu_image {
+  background-color: var(--secound-color);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-transition: all .3s ease 0s;
+  transition: all .3s ease 0s;
+}
+
+.left_menu .navbar_nav .nav_link.link_active .menu_image i {
+  color: var(--primary-color);
+  font-size: 1.175rem;
+}
+
+@media (min-width: 990px) {
+  .left_menu .navbar_nav .nav_link:hover .menu_image {
+    background-color: var(--secound-color);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-transition: all .3s ease 0s;
+    transition: all .3s ease 0s;
+  }
+  .left_menu .navbar_nav .nav_link:hover .menu_image i {
+    color: var(--primary-color);
+  }
+}
+
+.left_menu .navbar_nav .nav_link .menu_lines {
+  position: relative;
+  margin-right: 30px;
+  text-align: center;
+  line-height: 70px;
+  padding-left: 0;
+  height: 52px;
+  min-height: 52px;
+  min-width: 52px;
+  width: 52px;
+  display: inline-block;
+}
+
+.left_menu .navbar_nav .nav_link .menu_lines .line {
+  transition: all 0.2s ease 0s;
+  -webkit-transition: all 0.2s ease 0s;
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  margin: -1px 0 0 -15px;
+}
+
+.left_menu .navbar_nav .nav_link .menu_lines .line.first {
+  margin-top: -8px;
+}
+
+.left_menu .navbar_nav .nav_link .menu_lines .line.last {
+  margin-top: 6px;
+}
+
+.left_menu .navbar_nav.top .nav_link {
+  background-color: var(--primary-color);
+  line-height: 100px;
+  height: 100px;
+  min-height: 100px;
+  width: 100%;
+  border-radius: 0;
+  margin: 0 0 26px 0;
+  padding: 0;
+}
+
+.left_menu .navbar_nav.top .nav_link .menu_title {
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .left_menu {
+    left: -300px;
+  }
+  .left_menu.active {
+    left: 0;
+  }
+  ul {
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 576px) {
+  .left_menu {
+    top: 60px;
+  }
+}
+/*# sourceMappingURL=Left_nav.module.css.map */

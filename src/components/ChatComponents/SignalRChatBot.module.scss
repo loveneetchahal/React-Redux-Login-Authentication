@@ -1,0 +1,391 @@
+  
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+  
+  
+  .chat_header{
+    color: #808f05
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .inbox_people {
+    background: #f8f8f8 none repeat scroll 0 0;
+    float: left;
+    overflow: hidden;
+    width: 40%;
+    border-right: 1px solid #c4c4c4;
+  }
+  
+  .inbox_msg {
+    border: 1px solid #c4c4c4;
+    clear: both;
+    overflow: hidden;
+  }
+  
+  .top_spac {
+    margin: 20px 0 0;
+  }
+  
+  
+  .recent_heading {
+    float: left;
+    width: 40%;
+  }
+  
+  .srch_bar {
+    display: inline-block;
+    text-align: right;
+    width: 60%;
+  }
+  
+  .headind_srch {
+    padding: 10px 29px 10px 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #c4c4c4;
+  }
+  
+  .recent_heading h4 {
+    color: #808f05;
+    font-size: 21px;
+    margin: auto;
+  }
+  
+  .srch_bar input {
+    border: 1px solid #cdcdcd;
+    border-width: 0 0 1px 0;
+    width: 80%;
+    padding: 2px 0 4px 6px;
+    background: none;
+  }
+  
+  .srch_bar .input-group-addon button {
+    background: #cdcdcd none repeat scroll 0 0;
+    border: none;
+    padding: 0;
+    color: #707070;
+    font-size: 18px;
+  }
+  
+  .srch_bar .input-group-addon {
+    margin: 0 0 0 -27px;
+  }
+  
+  .chat_ib h5 {
+    font-size: 15px;
+    color: #464646;
+    margin: 0 0 8px 0;
+  }
+  
+    .chat_ib h5 span {
+      font-size: 13px;
+      float: right;
+    }
+  
+  .chat_ib p {
+    font-size: 14px;
+    color: #989898;
+    margin: auto
+  }
+  
+  .chat_img {
+    float: left;
+    width: 11%;
+  }
+  
+  .chat_ib {
+    float: left;
+    padding: 0 0 0 15px;
+    width: 88%;
+  }
+  
+  .chat_people {
+    overflow: hidden;
+    clear: both;
+  }
+  
+  .chat_list {
+    border-bottom: 1px solid #c4c4c4;
+    margin: 0;
+    padding: 18px 16px 10px;
+  }
+  
+  .inbox_chat {
+    height: auto;
+    overflow-y: scroll;
+  }
+  
+  .active_chat {
+    background: #ebebeb;
+  }
+  
+  .incoming_msg_img {
+   overflow: hidden;
+  }
+  
+  
+  .received_withd_msg p {
+    background: #e2dcdc none repeat scroll 0 0;
+    border-radius: 3px;
+    font-size: 14px;
+    margin: 0;
+    color: rgb(12, 8, 8);
+    padding: 5px 10px 5px 12px;
+    width: 92%;
+  }
+  .time_date {
+    color: #747474;
+    display: block;
+    font-size: 12px;
+    margin: 0px 0 5px;
+  }
+  
+  .received_withd_msg {
+    float: left;
+    width: auto;
+  }
+  
+  .mesgs {
+    padding: 10px 10px 0 10px;
+  }
+  
+  .sent_msg p {
+    background: #808f05 none repeat scroll 0 0;
+    border-radius: 3px;
+    font-size: 14px;
+    margin: 0;
+    color: rgb(10, 7, 7);
+    padding: 5px 10px 5px 12px;
+    width: 92%;
+  }
+  
+  .outgoing_msg {
+    overflow: hidden;
+  }
+  .sent_date{
+    float: right;
+    margin-right:0px;
+  }
+  .sent_msg {
+    float: right;
+    width: auto;
+  }
+  
+  .input_msg_write input {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    color: #4c4c4c;
+    font-size: 15px;
+    min-height: 30px;
+    width: 100%;
+  }
+  
+  .type_msg {
+    border-top: 1px solid #c4c4c4;
+    position: relative;
+  }
+  
+  .msg_send_btn {
+    background: #fbfcf9 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 50%;
+    color: rgb(15, 13, 13);
+    cursor: pointer;
+    font-size: 17px;
+    height: 33px;
+    position: absolute;
+    right: 0;
+    top: 11px;
+    width: 33px;
+  }
+  .btnOptionforgroup{
+    background: rgb(214, 243, 243);
+  }
+  .Uploadbtn{
+    background: #fbfcf9 none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 50%;
+    color: rgb(15, 13, 13);
+    cursor: pointer;
+    font-size: 17px;
+    height: 33px;
+    position: absolute;
+    left: 10;
+    top: 11px;
+    width: 33px;
+  }
+  .sidebarleft{
+    margin-left:-5px;
+    float: left;
+    width:28%;
+    height: 100vh;
+    background-color:rgb(211, 223, 223);
+  }
+  .fixedsearchbar{
+    position: fixed;
+    background:rgb(211, 223, 223);
+    width: 23%;
+  }
+  .sidebarright{
+    height: 500px;
+    width: 70%;
+    float: right;
+  }
+  .file_UploadIcon{
+    visibility: hidden;   
+  }
+ /* .file_UploadIcon {
+    //visibility:hidden;
+    background: #0000 none repeat scroll 0 0;
+    width:20%;
+  }
+    border: medium none;
+    border-radius: 50%;
+    color: rgb(14, 11, 11);
+    cursor: pointer;
+    font-size: 17px;
+    height: 33px;
+    position: absolute;
+    left: 550px;
+    top: 11px;
+    width: 33px;
+    
+  }*/
+  .messaging {
+    padding: 100 100 100 100;
+  }
+  
+  .msg_history {
+    height: 430px;
+    overflow-y: auto;
+  }
+  
+  .wrapper {
+    width: 100%;
+    height: 40px;
+    background: rgb(250, 252, 252);
+    margin: auto;
+    padding: 10px;
+  }
+  .card {
+    height: 94vh;
+    background-color:rgb(211, 223, 223);
+    margin:0px 10px 0 10px;
+  }
+  
+  .ListCard{
+    height:auto;
+    width:87%;  
+    background-color: rgb(247, 244, 213);
+  }
+  .usersListCard{
+    padding: 9px;
+    padding-left:15px;
+  }
+  .usersListCard:hover{
+    background-color: rgb(210, 210, 233);
+  }
+  .left {
+    width: 85%;
+    height: 35px;
+    background: rgb(253, 253, 253);
+    float: left;
+  }
+  
+  .right {
+    width:15%;
+    margin-right: 0px;
+    height: 35px;
+    background: rgb(255, 255, 255);
+    float: right;
+  }
+/*--------------------*/
+
+
+.imgavatar {
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.verified_UserOnlineCheck {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  background: aqua;
+  width: 15px;
+  height: 15px;
+  display: grid;
+  text-align: center;
+  line-height: 15px;
+  color: white;
+  font-size: 10px;
+  font-weight: bolder;
+}
+.verified_UserOfflineCheck{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  background: #ff0000;
+  width: 15px;
+  height: 15px;
+  display: grid;
+  text-align: center;
+  line-height: 15px;
+  color: white;
+  font-size: 10px;
+  font-weight: bolder;
+}
+.TextTopicName{
+  margin-top: 14px;
+  margin-right:67%;
+  float: right;
+  width:200px;
+}
+.Profile_wrapper {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  float: left;
+}
+.searchleft {
+  width: 85%;
+  height:50px;
+  float:left;
+}
+.searchright {
+  margin-top: 8px;
+  width: 15%;
+  float:right;
+}
+
+.verticalDots{
+  font-size: 1.5em;
+}
+
+.GroupAdddropdown_content{
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.GroupAdddropdown_content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.GroupAdddropdown_content a:hover {
+  background-color: #ddd;
+}
